@@ -27,4 +27,4 @@ Can we trust simple models to make decisions? What patterns are they actually le
 ___
 
 ## License
-MIT License. Feel free to use and adapt, with attribution.
+For academic/portfolio use only.
