@@ -7,10 +7,15 @@ The goal is to investigate trust, reliability, and bias in small-scale AI system
 ___
 
 ## Repository Structure
-- `data/` – toy datasets (raw & processed).
-- `notebooks/` – Jupyter/Colab notebooks.
-- `figures/` – saved plots and LIME explanations.
-- `docs/` – mini-report and supporting material.
+- `data/`  
+  - `raw/` → toy datasets generated artificially  
+    - `smile/` → PNGs for the positive class (artificial smiley faces)  
+    - `not_smile/` → PNGs for the negative class (faces without smiles)  
+    - `labels.csv` → file paths and labels  
+- `notebooks/` → Jupyter/Colab notebooks.  
+- `figures/` → saved plots and LIME explanations.  
+- `docs/` → mini-report and supporting material.  
+
 ___
 
 ## How to Run
