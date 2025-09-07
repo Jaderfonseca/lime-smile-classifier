@@ -7,14 +7,45 @@ The goal is to investigate trust, reliability, and bias in small-scale AI system
 ___
 
 ## Repository Structure
-- `data/`  
-  - `raw/` → toy datasets generated artificially  
-    - `smile/` → PNGs for the positive class (artificial smiley faces)  
-    - `not_smile/` → PNGs for the negative class (faces without smiles)  
-    - `labels.csv` → file paths and labels  
-- `notebooks/` → Jupyter/Colab notebooks.  
-- `figures/` → saved plots and LIME explanations.  
-- `docs/` → mini-report and supporting material.  
+
+```text
+data/
+├── raw/
+│   └── labels.csv
+├── processed/
+│   ├── X_train.npy
+│   ├── y_train.npy
+│   ├── X_test.npy
+│   └── y_test.npy
+
+models/
+├── mlp_smile_classifier.h5
+├── mlp_smile_final.keras
+├── mlp_smile_best.keras
+├── mlp_smile_classifier.keras
+└── mlp_smile_history.json
+
+figures/
+├── mlp_accuracy.png
+├── mlp_loss.png
+├── mlp_confusion_matrix.png
+├── lime_sample_smile.png
+├── lime_sample_not_smile.png
+├── exp_sample1.png … exp_sample10.png
+├── exp_grid_smile.png
+├── exp_grid_not_smile.png
+├── exp_error1.png
+└── raw_idx132.png
+
+results/
+├── classification_report.txt
+├── history.npy
+└── mlp_history.json
+
+docs/
+├── mini-report.md
+└── notes.md
+
 ___
 
 ## How to Run
