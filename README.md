@@ -77,5 +77,24 @@ results/
 ```
 ___
 
+## Key Figures  
+
+- **Training accuracy curve** → `figures/mlp_accuracy.png`  
+- **Training loss curve** → `figures/mlp_loss.png`  
+- **Confusion matrix** → `figures/mlp_confusion_matrix.png`  
+- **Smile Grid (LIME)** → `figures/exp_grid_smile.png`  
+- **Not Smile Grid (LIME)** → `figures/exp_grid_not_smile.png`  
+- **Error Case (idx 132)** → `figures/exp_error1.png`  
+
+
+## ⚠️ Limitations
+
+- Only a subset of test cases inspected (5 Smile, 5 Not Smile + 1 error case). 
+- Small synthetic dataset, limited variation. 
+- Some ambiguous labels (e.g., idx 132).
+- LIME often highlights borders/eyes beyond mouths.
+- Explanations may vary due to perturbation randomness.
+___
+
 ## License
 For academic/portfolio use only.
