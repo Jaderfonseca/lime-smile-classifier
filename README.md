@@ -4,7 +4,7 @@
 📄[Mini-report PDF](Mini-Report_LIME_Based_Analysis_of_Smile_vs._Not_Smile)
 The mini-report PDF is included for quick reference in portfolio submissions. It provides a concise overview of methods, results, and key figures, without requiring readers to open the full notebook.
 
-## Project Objective
+## Objective
 This mini-project explores how a simple neural network can classify toy "smiley face" images, and applies LIME to interpret what the model is really learning.
 The goal is to investigate trust, reliability, and bias in small-scale AI systems — and connect these insights to real-world applications such as facial recognition, medicine, and justice.
 ___
