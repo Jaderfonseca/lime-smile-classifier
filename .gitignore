@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Results and temporary files
+results/*.npy
+results/*.json
+results/*.txt
+
+# Models (large files, keep only final if needed)
+*.h5
+*.keras
+*.ckpt
+
+# Figures (ignore intermediates, keep curated outputs)
+figures/*.png
+!figures/exp_grid_smile.png
+!figures/exp_grid_not_smile.png
+!figures/exp_error1.png
+
+# Data (ignore raw, keep processed if light)
+data/raw/
+data/clean/
+*.csv
+*.joblib
+
+# Reports (keep final mini-report PDFs, ignore drafts)
+*.aux
+*.log
+*.out
+*.toc
+*.tmp
+*.bak
+*.swp
+
+# Editor configs
+.vscode/
+.idea/
