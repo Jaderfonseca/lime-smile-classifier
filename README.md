@@ -15,6 +15,14 @@ The interpretability patterns uncovered in this toy study raise broader concerns
 
 ___
 
+## How to Run
+Instructions will be provided once the first notebook is complete.
+For now:
+1. Clone this repository.
+2. Open the `notebooks/` folder in Google Colab.
+3. Dependencies will be listed in `requirements.txt`.
+___
+
 ## Repository Structure
 
 ```text
@@ -55,19 +63,6 @@ docs/
 ├── mini-report.md
 └── notes.md
 ```
-___
-
-## How to Run
-Instructions will be provided once the first notebook is complete.
-For now:
-1. Clone this repository.
-2. Open the `notebooks/` folder in Google Colab.
-3. Dependencies will be listed in `requirements.txt`.
-___
-
-## Ethical Note
-Beyond code and graphs, this project highlights a central ethical concern:
-Can we trust simple models to make decisions? What patterns are they actually learning, and how does this connect to real-world systems that affect people’s lives?
 ___
 
 ## License
