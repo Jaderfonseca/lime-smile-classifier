@@ -1,18 +1,9 @@
-%%bash
-cd /content/lime-smile-classifier
-cat > .gitignore << 'EOF'
-# Python cache/temp
+# Python / OS junk
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.DS_Store
-
-# Colab/OS junk
+.DS_Store
 .ipynb_checkpoints/
 *.swp
 Thumbs.db
-
-# Keep all project artifacts
-# (figures, data, results, models, notebooks, pdfs)
-EOF
