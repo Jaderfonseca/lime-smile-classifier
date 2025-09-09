@@ -1,0 +1,10 @@
+Test accuracy: 0.995
+
+              precision    recall  f1-score   support
+
+   not_smile       1.00      0.99      0.99       100
+       smile       0.99      1.00      1.00       100
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.99      0.99       200
+weighted avg       1.00      0.99      0.99       200
