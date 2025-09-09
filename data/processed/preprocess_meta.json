@@ -1,0 +1,15 @@
+{
+  "img_size": 48,
+  "binarize": false,
+  "threshold": 128,
+  "normalize": true,
+  "random_seed": 42,
+  "n_total": 1000,
+  "n_train": 800,
+  "n_test": 200,
+  "n_features": 2304,
+  "label_to_id": {
+    "smile": 1,
+    "not_smile": 0
+  }
+}
