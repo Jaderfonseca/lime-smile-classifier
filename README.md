@@ -59,9 +59,6 @@ results/
 ├── history.npy
 └── mlp_history.json
 
-docs/
-├── mini-report.md
-└── notes.md
 ```
 ___
 
