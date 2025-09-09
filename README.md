@@ -16,11 +16,26 @@ The interpretability patterns uncovered in this toy study raise broader concerns
 ___
 
 ## How to Run
-Instructions will be provided once the first notebook is complete.
-For now:
-1. Clone this repository.
-2. Open the `notebooks/` folder in Google Colab.
-3. Dependencies will be listed in `requirements.txt`.
+
+The notebook and scripts are structured to ensure both automation and reproducibility.
+
+- **Batch LIME explanations**:  
+  A helper function (`run_lime_batch`) is included to automatically generate and save multiple LIME explanations.  
+  - Inputs: a list of indices (e.g., 5 *smile* and 5 *not smile* examples).  
+  - Outputs: corresponding `.png` files saved in `figures/` (`exp_sample*.png`, `exp_grid_smile.png`, `exp_grid_not_smile.png`, etc.).  
+  - These images are the ones reported and discussed in the mini-report.
+
+- **Reproducibility**:  
+  To keep experiments consistent, seeds are fixed for NumPy, Python, and TensorFlow/Keras. Running the notebook from top to bottom (`Restart & Run All`) regenerates the same metrics and explanations without drift.
+
+- **Outputs**:  
+  The pipeline reproduces:  
+  1. Model training metrics (`accuracy`, `loss`, `confusion matrix`).  
+  2. Batch LIME explanations for both classes.  
+  3. Error case analysis (idx 132).  
+  4. Figures saved automatically under `figures/`.  
+
+This ensures that results presented in the **Mini-Report** can be fully reproduced by rerunning the notebook.
 ___
 
 ## Repository Structure
