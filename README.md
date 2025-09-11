@@ -6,7 +6,7 @@ The mini-report PDF is included for quick reference in portfolio submissions. It
 
 ## Objective
 This mini-project explores how a simple neural network can classify toy "smiley face" images, and applies LIME to interpret what the model is really learning.
-The goal is to investigate trust, reliability, and bias in small-scale AI systems — and connect these insights to real-world applications such as facial recognition, medicine, and justice.
+The goal is to investigate trust, reliability, and bias in small-scale AI systems — and connect these insights to real-world applications such as facial recognition and justice.
 ___
 
 ## Ethical Note
