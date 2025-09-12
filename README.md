@@ -28,6 +28,11 @@ ___
    - **Interpretability (LIME)** → produces explanations highlighting image regions that drive predictions.  
 4. **Outputs** (datasets, models, metrics, and figures) are automatically saved into their respective folders.
 
+**Environment**
+- Python 3.10+  
+- TensorFlow/Keras 2.15+  
+- NumPy, scikit-learn, matplotlib, pillow, scikit-image, lime
+
 - **Batch LIME explanations**:  
   A helper function (`run_lime_batch`) is included to automatically generate and save multiple LIME explanations.  
   - Inputs: a list of indices (e.g., 5 *smile* and 5 *not smile* examples).  
