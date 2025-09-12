@@ -48,8 +48,6 @@ ___
   2. Batch LIME explanations for both classes.  
   3. Error case analysis (idx 132).  
   4. Figures saved automatically under `figures/`.  
-
-This ensures that results presented in the **Mini-Report** can be fully reproduced by rerunning the notebook.
 ___
 
 ## Repository Structure
