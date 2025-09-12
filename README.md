@@ -58,8 +58,8 @@ data/
 │   └── preprocess_meta.json
 ├── raw/
 │   ├── labels.csv
-│   ├── not_smile/
-│   └── smile/
+│   ├── not_smile/ # synthetic images (≈499)
+│   └── smile/     # synthetic images (≈499)
 │   └── .gitkeep
 
 figures/
@@ -106,11 +106,10 @@ ___
 
 ## ⚠️ Limitations
 
-- Only a subset of test cases inspected (5 Smile, 5 Not Smile + 1 error case). 
-- Small synthetic dataset, limited variation. 
-- Some ambiguous labels (e.g., idx 132).
-- LIME often highlights borders/eyes beyond mouths.
-- Explanations may vary due to perturbation randomness.
+- Synthetic dataset with limited variation.
+- Small subset of cases inspected (5 Smile, 5 Not Smile, +1 error).
+- Ambiguity in some labels (e.g., idx 132: misclassified by the model and unclear even for humans).
+- LIME may highlight irrelevant borders/eyes, and explanations vary with perturbations.
 ___
 
 ## License
