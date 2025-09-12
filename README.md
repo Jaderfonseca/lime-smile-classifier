@@ -50,13 +50,31 @@ ___
 
 ```text
 data/
-├── raw/
-│   └── labels.csv
 ├── processed/
-│   ├── X_train.npy
-│   ├── y_train.npy
 │   ├── X_test.npy
-│   └── y_test.npy
+│   ├── X_train.npy
+│   ├── y_test.npy
+│   ├── y_train.npy
+│   └── preprocess_meta.json
+├── raw/
+│   ├── labels.csv
+│   ├── not_smile/
+│   └── smile/
+│   └── .gitkeep
+
+figures/
+├── accuracy.png
+├── confusion_matrix.png
+├── exp_error1.png
+├── exp_grid_not_smile.png
+├── exp_grid_smile.png
+├── exp_sample1.png … exp_sample10.png
+├── lime_sample_smile.png
+├── lime_sample_not_smile.png
+├── mlp_accuracy.png
+├── mlp_confusion_matrix.png
+├── mlp_loss.png
+└── raw_idx132.png
 
 models/
 ├── mlp_smile_classifier.h5
@@ -65,22 +83,13 @@ models/
 ├── mlp_smile_classifier.keras
 └── mlp_smile_history.json
 
-figures/
-├── mlp_accuracy.png
-├── mlp_loss.png
-├── mlp_confusion_matrix.png
-├── lime_sample_smile.png
-├── lime_sample_not_smile.png
-├── exp_sample1.png … exp_sample10.png
-├── exp_grid_smile.png
-├── exp_grid_not_smile.png
-├── exp_error1.png
-└── raw_idx132.png
-
 results/
 ├── classification_report.txt
 ├── history.npy
 └── mlp_history.json
+
+notebooks/
+└── .gitkeep
 
 ```
 ___
