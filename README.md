@@ -17,7 +17,15 @@ ___
 
 ## How to Run
 
-The notebook and scripts are structured to ensure both automation and reproducibility.
+1. **Open** this notebook in [Google Colab](https://colab.research.google.com/) or a local Jupyter environment.  
+2. **Run the Setup cell** to install required dependencies.  
+3. **Execute the notebook cells in order**:
+   - **Data generation** → creates synthetic images under `data/raw/` with labels.  
+   - **Preprocessing** → builds preprocessed arrays (`data/processed/`).  
+   - **Model training** → trains the neural network classifier.  
+   - **Evaluation** → computes accuracy, loss curves, and confusion matrix.  
+   - **Interpretability (LIME)** → produces explanations highlighting image regions that drive predictions.  
+4. **Outputs** (datasets, models, metrics, and figures) are automatically saved into their respective folders.
 
 - **Batch LIME explanations**:  
   A helper function (`run_lime_batch`) is included to automatically generate and save multiple LIME explanations.  
