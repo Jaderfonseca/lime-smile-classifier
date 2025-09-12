@@ -1,7 +1,7 @@
 # Interpreting Toy Neural Networks with LIME
 *Mini-project: Can we trust a smiley-face classifier?*
 
-📄[Mini-report PDF](Mini-Report_LIME_Based_Analysis_of_Smile_vs._Not_Smile)
+📄[Mini-report PDF](Mini-Report_LIME_Based_Analysis_of_Smile_vs._Not_Smile.pdf)
 
 The mini-report PDF is included for quick reference in portfolio submissions. It provides a concise overview of methods, results, and key figures, without requiring readers to open the full notebook.
 
