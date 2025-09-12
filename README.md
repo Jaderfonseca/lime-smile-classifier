@@ -81,7 +81,6 @@ figures/
 └── raw_idx132.png
 
 models/
-├── mlp_smile_classifier.h5
 ├── mlp_smile_final.keras
 ├── mlp_smile_best.keras
 ├── mlp_smile_classifier.keras
