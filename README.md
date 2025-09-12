@@ -17,7 +17,7 @@ ___
 
 ## How to Run
 
-1. **Open** this notebook in [Google Colab](https://colab.research.google.com/) or a local Jupyter environment.  
+1. **Open** this notebook in [Open in Colab](https://colab.research.google.com/github/Jaderfonseca/lime-smile-classifier/blob/main/neural_network_with_LIME.ipynb) or a local Jupyter environment.  
 2. **Run the Setup cell** to install required dependencies.  
 3. **Execute the notebook cells in order**:
    - **Data generation** → creates synthetic images under `data/raw/` with labels.  
